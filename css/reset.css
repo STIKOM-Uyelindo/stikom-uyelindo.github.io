@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    color: #fff;
+    background-color: #342f4a;
+}
+
+p {
+    margin: 15px 0 15px 0;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    grid: 100%;
+}
+
+.header {
+    line-height: 90px;
+    background-color: #322e46;
+}
+
+.header .logo {
+    width: 50px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.side {
+    min-height: 100vh;
+}
+
+.side h2 {
+    font-size: 40px;
+    margin: 35px 0 35px 0;
+    text-align: center;
+}
+
+.header .title {
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav ul li {
+    font-size: 20px;
+}
+
+.nav ul li a {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #ff4747;
+}
+
+.main {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main p {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.big {
+    font-size: 45px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #322e46;
+}
+
+/*  */
