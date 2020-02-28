@@ -41,7 +41,7 @@ p {
 
 .side h2 {
     font-size: 40px;
-    margin: 35px 0 35px 0;
+    margin: calc(25vh - 35px) 0;
     text-align: center;
 }
 
